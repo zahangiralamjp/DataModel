@@ -1,0 +1,95 @@
+import 'package:flutter/material.dart';
+
+class Product {
+  final String title;
+  final String description;
+  final String image;
+  final String review;
+  final String seller;
+  final double price;
+  final List<Color> colors;
+  final String catagory;
+  final double rate;
+  int quantity;
+
+  Product({
+    required this.title,
+    required this.description,
+    required this.image,
+    required this.review,
+    required this.seller,
+    required this.price,
+    required this.colors,
+    required this.catagory,
+    required this.rate,
+    required this.quantity,
+  });
+}
+
+final List<Product> products = [
+  Product(
+      title: "Smart Watch",
+      description:
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      image: "Assets/images/watch.png",
+      review: "(32 Revies)",
+      seller: "Zahangir ALam",
+      price: 100,
+      colors: [
+        Colors.black,
+        Colors.yellow,
+        Colors.purple,
+      ],
+      catagory: "Electronics",
+      rate: 4.0,
+      quantity: 1),
+  Product(
+      title: "Wireless Headphone",
+      description:
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      image: "Assets/images/headphone.png",
+      review: "(32 Revies)",
+      seller: "Roni",
+      price: 500,
+      colors: [
+        Colors.pink,
+        Colors.yellow,
+        Colors.red,
+      ],
+      catagory: "Electronics",
+      rate: 3.0,
+      quantity: 1),
+  Product(
+      title: "Wireless Headphone",
+      description:
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      image: "Assets/images/headphone.png",
+      review: "(32 Revies)",
+      seller: "Roni",
+      price: 500,
+      colors: [
+        Colors.pink,
+        Colors.yellow,
+        Colors.red,
+      ],
+      catagory: "Men Full Zip Rain Jacket",
+      rate: 3.0,
+      quantity: 1),
+  Product(
+      title: "Wireless Headphone",
+      description:
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      image: "Assets/images/jjeket.png",
+      review: "(32 Revies)",
+      seller: "Rahim",
+      price: 500,
+      colors: [
+        Colors.black,
+        Colors.blue,
+        Colors.red,
+      ],
+      catagory: "Man Cloth",
+      rate: 4.0,
+      quantity: 1),
+];
+//
